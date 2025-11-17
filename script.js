@@ -13,8 +13,10 @@ document.addEventListener(("mouseover"), (e)=>{
 })
 
 document.addEventListener("click", (e)=>{
-    const child = main.children;
-    for (let i = 0; i < 256; i++) {
-        child[i].style.backgroundColor = "#ff0000";
-}
+    if (e.target === button) {
+        const child = main.children;
+        for (let i = 0; i < 256; i++) {
+            child[i].style.backgroundColor = "#ff0000";
+        }
+    }
 })
