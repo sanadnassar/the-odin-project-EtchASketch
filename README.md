@@ -1,1 +1,3 @@
-# the-odin-project-EtchASketch
+# Etch A Sketch
+
+The Odin Project's Etch A Sketch
